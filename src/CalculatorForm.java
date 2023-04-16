@@ -188,7 +188,7 @@ public class CalculatorForm {
     {
         double value = Double.parseDouble(displayField.getText());
 // Note that we evaluate last Operator, not current
-        
+
         try{
             switch(lastOP){
                 case ADD:
